@@ -17,13 +17,17 @@
             <div class="input-group mb-3 w-25">
                 <input id="userInput" type="text" class="form-control" placeholder="I need...."
                     aria-label="Recipient's username" aria-describedby="button-addon2">
-                <button class="btn btn-secondary" type="button" onclick="addItem()" id="submitBtn">Submit</button>
+                <button class="btn btn-secondary d-block" type="button" onclick="addItem()" id="submitBtn">Submit</button>
+                <button class="btn btn-warning d-none" type="button"  id="updateBtn">Edit</button>
             </div>
         </div>
     </header>
 
     <section id="home">
         <div class=" container ">
+            <div class="searchBox w-50 m-auto my-5">
+                <input type="text" id="searchInput" class="form-control" >
+            </div>
             <div id="homeContent">
                
             </div>
